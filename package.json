@@ -1,5 +1,5 @@
 {
-  "name": "projeto-inorbit",
+  "name": "server",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -17,9 +17,12 @@
     "typescript": "^5.8.2"
   },
   "dependencies": {
+    "@paralleldrive/cuid2": "^2.2.2",
     "drizzle-orm": "^0.40.0",
     "fastify": "^5.2.1",
+    "postgres": "^3.4.5",
     "projeto-inorbit": "file:",
+    "server": "file:",
     "zod": "^3.24.2"
   }
 }
